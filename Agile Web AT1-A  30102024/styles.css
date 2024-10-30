@@ -1,0 +1,127 @@
+/*
+Name: Joshua Lorenzo Sambajon
+ID: 30084775
+Date: 12/09/2024
+*/
+/************************************************************************************************************************/
+/*GLOBAL STYLE*/
+
+/* Make the body take the full viewport height */
+body, html {
+    height: 100%;
+}
+
+/* Flexbox layout to push footer to the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Ensure the main container takes up the remaining space */
+.container {
+    flex: 1;
+}
+
+/* Optional: Add margin to the footer for spacing */
+footer {
+    margin-top: auto;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        height: 200px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Remove underline and dropdown icon for the custom accordion item */
+.custom-accordion .accordion-button {
+    text-decoration: none; /* Remove underline */
+    background: transparent; /* Remove default button styling */
+    box-shadow: none; /* Remove any shadow */
+    border: none; /* Remove border if present */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+}
+
+/* Hide the dropdown icon */
+.custom-accordion .accordion-button::after {
+    display: none; /* Hide the dropdown icon */
+}
+
+/* Custom Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make the brand name bold */
+    font-size: 1.5rem; /* Increase the brand name size */
+}
+
+.nav-link {
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+
+.nav-link.active {
+    color: #ffcc00; /* Highlight active link */
+    font-weight: bold; /* Bold the active link */
+}
+/************************************************************************************************************************/
+
+/* Custom Styles for Main Content */
+.container {
+    background-color: #f8f9fa; /* Light gray background for the container */
+    border-radius: 0.5rem; /* Slightly rounded corners */
+    padding: 2rem; /* Padding for inner spacing */
+}
+
+h1 {
+    color: #343a40; /* Dark text color for the header */
+    font-weight: bold; /* Bold text for emphasis */
+    text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.list-group-item {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #dee2e6; /* Light border for the list items */
+    border-radius: 0.25rem; /* Slightly rounded corners for list items */
+}
+
+
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* Light gray on hover */
+}
+
+
+/************************************************************************************************************************/
+/* Footer styles */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center the text */
+    padding: 1rem; /* Padding for spacing */
+    margin-top: 5rem; /* Space above the footer */
+}
+
+/* Style for the links inside the footer */
+footer a {
+    color: white    ; /* Keep links white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    color: #dcdcdc; /* Slight color change on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+/************************************************************************************************************************/

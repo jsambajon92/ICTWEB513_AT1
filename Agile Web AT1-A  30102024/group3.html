@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage for CITE Managed Services.">
+    <meta name="author" content="Your Name">
+    <title>Content Definitions (Group Three)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">CITE Managed Services</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="group1.html">QUESTIONS 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="group2.html">QUESTIONS 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="group3.html">DEFINITIONS 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="group4.html">DEFINITIONS 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">CONTACTS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+ 
+<!-- Main Content Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Content Definitions (Group Three)</h2>
+    <div class="accordion" id="definitionAccordion">
+
+        <!--Definition 1 --> 
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Authentication and Web Security
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#definitionAccordion">
+                <div class="accordion-body">
+                    <ul>
+                        <li><strong>Authentication: </strong>is the process of verifying the identity of a user or system. It ensures that users are who they claim to be before granting access to resources or services. This often involves credentials like usernames and passwords, biometric data, or authentication tokens.</li>
+                        <li><strong>Web Security: </strong> refers to the measures and protocols put in place to protect web applications and services from cyber threats and unauthorized access. This includes protecting data in transit (using HTTPS), implementing secure coding practices, and safeguarding against common vulnerabilities (such as SQL injection or cross-site scripting).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--Definition 2 --> 
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Hypertext Transfer Protocol (HTTP)
+                </button>
+            </h2>
+             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#definitionAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                             <li><strong>Hypertext Transfer Protocol (HTTP) :</strong> is a protocol used for transferring hypertext requests and information on the web. It defines how messages are formatted and transmitted between a web server and a web client (usually a browser). HTTP operates over TCP/IP and is the foundation of data communication on the World Wide Web.</li>
+                        </ul>
+                    </div>
+             </div>
+        </div>
+
+        <!--Definition 3 --> 
+         <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Session Management
+                </button>
+                    </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#definitionAccordion">
+                 <div class="accordion-body">
+                     <ul>
+                         <li><strong>Session Management</strong> involves handling the process of maintaining state and user information across multiple interactions or requests in a web application. It typically includes creating, tracking, and terminating sessions. Sessions are used to keep users logged in, manage their preferences, and store temporary data across multiple pages. Techniques for session management include cookies, session tokens, and server-side storage.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--Definition 4 --> 
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Stateless Programming
+                </button>
+            </h2>
+             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#definitionAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                             <li><strong> Stateless Programming:</strong>  refers to a design approach where each request from a client to a server is treated as an independent transaction, with no knowledge of previous requests. In a stateless system, the server does not retain any state or context between requests. Each request must contain all the information necessary to process it, as the server does not keep any memory of past interactions. This approach simplifies scaling and can improve reliability, but often requires additional mechanisms for managing state, such as using tokens or cookies to preserve session information.</li>
+                        </ul>
+                    </div>
+             </div>
+        </div>
+
+
+    </div>
+</div>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2024 CITE Managed Services | <a href="https://www.citems.com.au/wp-content/uploads/2021/01/CITEMS-Privacy-Policy_v1.0.pdf" class="text-white" target="_blank" rel="noopener noreferrer">Privacy Policy</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
